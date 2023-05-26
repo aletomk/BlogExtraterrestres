@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Extraterrestres entre nosotros</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="Raza alienígena Reptilianos, información e imágenes" />
+		<meta name="keywords" content="Extraterrestres, ovnis, aliens, alienígenas, razas alienígenas, reptilianos, anunnaki, grises, pleyadiano, lyriano" />
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" /> 
+		<link rel="stylesheet" href="css/fuentes/stylesheet.css" />
+		<link rel="stylesheet" href="css/formato.css" />
+		<link rel="stylesheet" media="print" href="css/impresion.css" />
+		<script src="prefixfree.min"></script>
+	</head>
+	<body>
+		<header>
+			<div>
+			<h1 id="submenu">Extraterrestres <span>entre nosotros</span></h1>
+				<nav>
+					<ul>
+						<li><a href="index.html"><strong>HOME</strong></a></li>
+						<li>
+						<a href="razas.html"><strong>RAZAS</strong></a>
+							<ul id="submenurazas">
+								<li><a href="razas.html#reptil">Reptilianos</a></li>
+								<li><a href="razas.html#gris">Grises</a></li>
+								<li><a href="razas.html#pleyadiano">Pleyadianos</a></li>
+								<li><a href="razas.html#anunnaki">Anunnakis</a></li>
+								<li><a href="razas.html#lyriano">Lyrianos</a></li>
+							</ul>	
+						<!-- 
+							dominio : http://alienigenas.com 
+							carpetas: razas/
+							archivos: listado.html 
+							ancla: #gris
+							
+							http://alienigenas.com/razas/listado.html#gris
+						-->
+						</li>
+						<li><a href="casos.html"><strong>CASOS</strong></a></li>
+						<li><a href="reportar.html"><strong>REPORTAR</strong></a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<main>
+			<h2>Reportar casos</h2>
+			<section>
+				<p>Complete el siguiente formulario para reportar un caso de avistamientos de Ovnis o Aliens.</p>
+				
+				<form action="procesar.php" method="post" enctype="multipart/form-data"> 
+				<!-- aqui estaran todo los campos que el usuario completa --> 
+				
+					<div>
+						<span>Nombre* </span><input type="text" name="nombre" class="large" required autofocus autocomplete="off" />
+					</div>	
+					
+					<div>
+						<span>Gmail* </span><input type="email" placeholder="texto@texto" name="correo" class="large" required />
+					</div>
+																				
+					<div>
+						<span>Género</span>
+							<label> 
+							<input type="radio" name="genero" value="masculino"/> 
+							Masculino </label>
+							
+							<label> 
+							<input type="radio" name="genero" value="femenino"/> 
+							Femenino </label>
+							
+							<label>
+								<input type="radio" name="genero" value="otro"/> 
+							Otro </label>
+					</div>
+					<!--
+					<div>
+						<span>Tipo de avistamiento</span>				
+							<input type="checkbox" name="tipo1" id="o1" value="ovni" />
+							<label for="o1">Ovni</label>
+							
+							<input type="checkbox" name="tipo2" id="o2" value="extraterrestre" />
+							<label for="o2">Extraterrestre</label>
+							
+							<input type="checkbox" name="tipo3" id="o3" value="encuentro" />
+							<label for="o3">Encuentro cercano</label>							
+					</div>
+					
+					<div>
+						<span>Raza</span>
+							<input type="text" name="raza" class="large" list="razasposibles"/>
+						
+							<datalist id="razasposibles">
+								<option>Grises</option>
+								<option>Anunnaki</option>
+								<option>Pleyadianos</option>
+								<option>Reptilianos</option>
+								<option>Lyrianos</option>
+							</datalist>				
+					</div>
+										
+				    <div>
+						<span>País del avistamiento</span>
+						<select name="pais">
+							
+							<optgroup label="Centroamerica">
+								<option>México</option>
+							</optgroup>
+							<optgroup label="Sudamerica">
+								<option selected>Argentina</option>
+								<option>Brasil</option>
+							</optgroup>
+							<optgroup label="Norteamerica">
+								<option>Estados Unidos</option>
+								<option>Canada</option>
+							</optgroup>
+						</select>			
+					</div>
+					-->			
+					<div>
+						<span>Lugar</span><input type="text" name="lugar" class="large" placeholder="Dirección, Barrio o Localidad"/>
+					</div>		
+					<!--
+					<div>
+						<span>Foto/Video</span> <input type="file" name="archivo" accept="image/*,video/*"/>  el * siginifica que acepta cualquier 
+																													formato de imagen y de video 
+					</div>
+					-->
+					<div>
+						<span>Mensaje* </span><textarea  name="mensaje "rows="7" cols="60" required></textarea>
+					</div>
+				
+					<div>
+						<input type="submit" value="Enviar reporte"/>
+					</div>
+					
+				</form> 
+			
+			</section>
+						
+		</main>
+		
+		<footer>
+			<div>
+				<ul>
+					<li> <strong> TODOS LOS DERECHOS RESERVADOS</strong> &copy;</li>
+					<li><a href="#" onclick="window.open(this.href, '_blank'); return false;">aprendiendo en BloomIT</a> &trade;</li>
+					<li><a href="#">Estudiante de desarrollo web, Alejo Tomkiewicz</a> &#9822;</li>
+				</ul><ul id="redes">
+					<li><a href="#" id="fb">Facebook</a></li>
+					<li><a href="#" id="tw">Twitter</a></li>
+					<li><a href="#" id="yt">Youtube</a></li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+/***Colores de Tipografía acorde a cada sección***/
+/*Texto blanco: color: white;
+h3 de la sección servicios #003333;
+h2 de la sección portfolio #333333;
+p de la sección servcios y p de la sección portfolio #999999;
+li de la sección equipo #666666;
+
+*/
+
+@font-face{
+	font-family: roboto;
+	src: url('tipografia/roboto-v20-latin-regular.ttf') format('ttf'); 
+	src: url('tipografia/roboto-v20-latin-regular.eot') format('eot');
+	src: url('tipografia/roboto-v20-latin-regular.woff') format('woff');
+	src: url('tipografia/roboto-v20-latin-regular.woff2') format('woff2');
+}
+
+html{
+	font-family: roboto;
+}
+
+header{
+	background-color: red;
+}
+
+header h1{
+	float: left;
+}
+
+header nav{
+	float: right;
+}
+
+header nav li{
+	display: inline-block;
+	position: relative;
+}
+
+header li a:hover{
+	color: #00CCFF;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+
+
+#portfolio h2{
+	color: #333333;
+}
+
+#portfolio p{
+	color: #999999;
+}
+
+#servicios h3{
+	color: #003333;
+}
+
+#servicios p{
+	color: #999999;
+}
+
+#servicios h3:hover{
+	color: #00CCFF;
+}
+
+#equipo li{
+	color: #666666;
+}
+
+/*Generales*/
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+.mayuscula{
+	text-transform: uppercase;
+}
+
+.negrita{
+	font-weight: bold;
+}
+
+.centrado{
+	text-align: center;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<meta charset="utf-8" />
+		<title>Precedencia</title>
+		<style>
+			#texto span{ color: red; } <!-- No importa el orden en el que escribamos las cosas, por jerarquia el id (#) le gana a p (<>) por este ser unico e irrepetible ( se vuelve más importante) -->
+			p .destacado{ color: blue !important; } <!-- No funciona el !important por algun motivo desconocido -->
+		</style>
+	</head>
+	
+	<body>
+		
+		<p id="texto">
+			Este es un parrafo 
+			<span class="destacado">con un span</span>
+		</p>
+		
+	</body>
+
+</html>

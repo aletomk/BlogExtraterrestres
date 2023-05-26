@@ -1,0 +1,22 @@
+p a[href]:after{
+	content: attr(href);
+	color: black;
+	display: inline-block;
+	margin-left: 8px;
+}
+
+aside, nav, #ovni_gif, #ovni_gif2, #slider{
+	display: none;
+}
+
+p{
+	column-count: 2;
+}
+
+footer{
+	display: none;
+}
+
+header{
+	display: none;
+}

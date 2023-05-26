@@ -1,0 +1,78 @@
+@font-face{
+	font-family: logo;
+	src: url('tipografia.ttf');
+	
+}
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+
+body{
+	font: 13px/20px Verdana;
+	color: #004F1D;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+	color: #0ED359;
+	font-weight: normal;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	cursor: url(cursor.png), wait;
+}
+
+a:hover{
+	font-weight: bold;
+}
+
+h1{
+	font-family: logo_space;
+	font-size: 40px;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+ul{
+	/* list-style-type: square; */
+	list-style-image: url(alienlistas.png);
+}
+
+
+
+.texto_rosa{ 
+	color: pink;
+}
+
+/* cite{font-style: normal;} */
+
+/* abbr{font-weight: bold} */
+
+h3{
+/* font-family: "Trebuchet Ms"; font-variant: small-caps; */
+	font: bold italic small-caps 20px/30px "Trebuchet Ms";
+	text-transform: capitalize;
+	letter-spacing: -1px;
+	text-decoration: underline;
+	color: #0ED3CE;
+}
+
+h2, article h1{
+	font-family: weston;
+	font-weight: bold;
+	color: #08A4B7;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	font-size: 30px;
+	/*font-family: "Trebuchet Ms";*/
+}
+
+/*p{font-family: "Verdana"; font-size: 14px; line-height: 18px;  */ /* letter-spacing: 3px; word-spacing: 4px; text-indent: 10px;}*/
+
+/*#principal{}*/
+
+/* body{text-align: justify;}
+
+h1{text-align: center;} */

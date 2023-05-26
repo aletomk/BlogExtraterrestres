@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<meta charset="utf-8" />
+		<title> Uso de etiqueta PICTURE </title>
+	</head>
+	
+	<body>
+		<div>
+			<picture> 
+				<!-- Este source webp se va a cargar en cualquier navegador que use el motor render blink (chrome/opera/android) -->
+				<source type="image/webp" srcset="_formatos/foto1.webp" />
+				
+				<!-- Esta imagen se carga en las todos los demas navegadores -->
+				<img src="_formatos/foto2.jpg" alt="Gato bebe" />
+				
+				<!-- Actualizado 2020 lso navegadores Firefox y Microsoft edge lo estandarizaron y ahora si los acepta. Mientras que los restantes aun no -->
+			</picture>
+		</div>
+	</body>
+
+</html>

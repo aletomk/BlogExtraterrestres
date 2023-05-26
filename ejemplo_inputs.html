@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Tipos de Inputs</title>
+		<meta charset="utf-8" />
+	</head>
+
+	<body>
+		<form method="get" action="procesar.php">
+			<h1>Tipos de input</h1>
+			
+				
+			<fieldset>
+				<legend>CONTROLES GENERICOS</legend>
+				
+				<h2>Genericos</h2>
+				
+					<div>Text: <input type="text" readonly value="texto de prueba"/></div>
+					<div>Text: <input type="text" disabled value="texto de prueba"/></div>
+					
+					<div>Range<input type="range"/></div>
+					<div>Range Vert<input type="range" orient="vertical"/></div>
+					
+					<div>Password: <input type="password"/></div>
+					<div>Color: <input type="color"/></div>
+					<div>Search: <input type="search"/></div>
+			</fieldset>
+			
+			<fieldset>	
+					<legend>CONTROLES PRE VALIDADOS</legend>
+					
+				<h2>Pre validados</h2>
+			
+					<div>Email: <input type="email"/></div>
+					<div>Url: <input type="url"/></div>
+					<div>Number: <input type="number" min="100" max="200" step="10"/></div>
+					<div>Tel: <input type="tel"/></div>
+			</fieldset>	
+			
+			<fieldset>
+					<legend>TIPOS DE FECHA</legend>
+					
+				<h2>Fechas</h2>
+				
+					<div>Date: <input type="date"/></div>
+					<div>Time: <input type="time"/></div>
+					<div>DateTime: <input type="datetime-local"/></div>
+					<div>Week: <input type="week"/></div>
+					<div>Month: <input type="month"/></div>
+			</fieldset>		
+			
+				<h2>Botones con la etiqueta BUTTON</h2>
+				
+					<div>
+						<button>Enviar</button> 
+						<button type="reset">Borrar todo</button>
+						<button type="button" onclick="alert('hiciste click')">Boton genérico</button> <!-- el boton de type button no genera acción, esta pensado para programarlo con JavaScript por medio del atributo onclick="" -->
+					</div>
+
+				<h2>Botones con la etiqueta INPUT</h2>	
+				
+					<div>
+						<input type="submit" value="Mandar formulario"/> 
+						<input type="reset" value="Borrar campos"/>
+						<input type="button" value="No tiene acción"/>
+						<input type="image" alt="Enviar formulario" height="45" src="multimedia/botonenviar.png"/>
+					</div>
+			
+		
+		</form>
+	
+	</body>
+	
+	
+</html>
